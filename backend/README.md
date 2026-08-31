@@ -20,4 +20,4 @@ Verificar que el servidor responde en `http://localhost:3000/health`.
 - Migraciones del esquema completo (COMUNA, EMPRESA, USUARIO, PERMISO, etc.).
 - RBAC/JWT base.
 
-Rama de trabajo: `feature/modulo2-backend-semana1` (ya creada desde `develop`).
+Rama de trabajo: `joshua-backend`.

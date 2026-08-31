@@ -27,7 +27,7 @@ ViaSegura/
 
 Ver sección 7 del plan de proyecto. Resumen:
 
-- Ramas: `feature/moduloX-nombre-semanaY`, fixes: `fix/moduloX-descripcion-corta`.
+- Ramas: una rama personal fija por integrante durante todo el proyecto, con el patrón `nombre-abreviomodulo` (`agustin-frontend`, `joshua-backend`, `nicolas-riesgo`). Fixes post feature-freeze: `fix/nombre-descripcion-corta`.
 - Commits pequeños y frecuentes (`feat:`, `fix:`, `chore:`, `test:`).
 - `git pull --rebase origin develop` antes de abrir PR. PR requiere revisión de al menos un compañero. Merge final a `main` solo desde `develop`, validado por los tres.
 
