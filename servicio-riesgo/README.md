@@ -22,4 +22,4 @@ Verificar que el servicio responde en `http://localhost:8000/health`.
 - Carga de datos censales del INE por manzana censal.
 - Endpoint `/health`.
 
-Rama de trabajo: `feature/modulo3-riesgo-semana1` (ya creada desde `develop`).
+Rama de trabajo: `nicolas-riesgo`.

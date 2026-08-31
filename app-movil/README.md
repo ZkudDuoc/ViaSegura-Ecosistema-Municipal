@@ -16,4 +16,4 @@ npm start   # abre Expo, escanear QR con Expo Go o correr en emulador
 - Estructura de navegación por rol (Chofer/Logística, Inspector).
 - Mockups de pantalla de solicitud.
 
-Rama de trabajo: `feature/modulo1-frontend-semana1` (ya creada desde `develop`, compartida con `dashboard/`).
+Rama de trabajo: `agustin-frontend` (compartida con `dashboard/`).
