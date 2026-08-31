@@ -3,7 +3,7 @@
 Responsable: Joshua Cruz
 
 ## Alcance (ver plan completo en `../docs/ViaSegura-Plan-Proyecto.md`)
-API RESTful, ciclo de vida del permiso, RBAC/JWT, WebSocket (Socket.io) para el botón de pánico, PostgreSQL/PostGIS, integración HTTP con `risk-service`.
+API RESTful, ciclo de vida del permiso, RBAC/JWT, WebSocket (Socket.io) para el botón de pánico, PostgreSQL/PostGIS, integración HTTP con `servicio-riesgo`.
 
 ## Setup
 

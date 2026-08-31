@@ -5,4 +5,4 @@ app = FastAPI(title="VíaSegura — Microservicio de Inteligencia Geoespacial")
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "module": "risk-service"}
+    return {"status": "ok", "module": "servicio-riesgo"}

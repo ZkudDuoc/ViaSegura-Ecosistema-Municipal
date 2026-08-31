@@ -1,5 +1,5 @@
 {
-  "name": "viasegura-mobile-app",
+  "name": "viasegura-app-movil",
   "version": "0.1.0",
   "description": "VíaSegura App Móvil — registro de solicitud, geofencing + foto, botón de pánico, escaneo QR e infracciones.",
   "private": true,

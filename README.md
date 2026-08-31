@@ -8,10 +8,10 @@ Ver el plan de proyecto completo en [`docs/ViaSegura-Plan-Proyecto.md`](docs/Via
 
 ```
 ViaSegura/
-├── mobile-app/      # Módulo 1a — App móvil (React Native) — Agustin Cavieres
-├── dashboard-web/   # Módulo 1b — Dashboard web (React.js + MapLibre GL) — Agustin Cavieres
+├── app-movil/       # Módulo 1a — App móvil (React Native) — Agustin Cavieres
+├── dashboard/       # Módulo 1b — Dashboard web (React.js + MapLibre GL) — Agustin Cavieres
 ├── backend/         # Módulo 2 — API core (Node.js + Express + PostGIS) — Joshua Cruz
-├── risk-service/    # Módulo 3 — Microservicio de riesgo (Python + FastAPI) — Nicolas Saavedra
+├── servicio-riesgo/ # Módulo 3 — Microservicio de riesgo (Python + FastAPI) — Nicolas Saavedra
 └── docs/            # Plan de proyecto y documentación
 ```
 
@@ -19,9 +19,9 @@ ViaSegura/
 
 | Integrante | Módulo | Carpeta |
 |---|---|---|
-| Agustin Cavieres | Frontend Multicapa | `mobile-app/`, `dashboard-web/` |
+| Agustin Cavieres | Frontend Multicapa | `app-movil/`, `dashboard/` |
 | Joshua Cruz | Backend Core | `backend/` |
-| Nicolas Saavedra | Microservicio de Inteligencia Geoespacial | `risk-service/` |
+| Nicolas Saavedra | Microservicio de Inteligencia Geoespacial | `servicio-riesgo/` |
 
 ## Flujo de trabajo (Git)
 
@@ -38,11 +38,11 @@ Ver sección 7 del plan de proyecto. Resumen:
 cd backend && npm install && npm run dev
 
 # Dashboard web
-cd dashboard-web && npm install && npm run dev
+cd dashboard && npm install && npm run dev
 
-# Mobile app
-cd mobile-app && npm install && npm start
+# App móvil
+cd app-movil && npm install && npm start
 
 # Microservicio de riesgo
-cd risk-service && python -m venv venv && venv\Scripts\activate && pip install -r requirements.txt && uvicorn app.main:app --reload
+cd servicio-riesgo && python -m venv venv && venv\Scripts\activate && pip install -r requirements.txt && uvicorn app.main:app --reload
 ```
