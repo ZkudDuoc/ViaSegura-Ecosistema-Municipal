@@ -17,4 +17,4 @@ npm run dev
 - Integración inicial de MapLibre GL con tiles OSM.
 - Mockups de dashboard.
 
-Rama de trabajo: `feature/modulo1-frontend-semana1` (ya creada desde `develop`, compartida con `app-movil/`).
+Rama de trabajo: `agustin-frontend` (compartida con `app-movil/`).

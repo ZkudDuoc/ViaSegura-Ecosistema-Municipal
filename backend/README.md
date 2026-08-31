@@ -34,4 +34,4 @@ Runner propio en `scripts/migrate.js` (tabla `schema_migrations` para llevar el 
 - Migraciones del esquema completo (COMUNA, EMPRESA, USUARIO, PERMISO, etc.). — hecho
 - RBAC/JWT base. — hecho
 
-Rama de trabajo: `feature/modulo2-backend-semana1` (ya creada desde `develop`).
+Rama de trabajo: `joshua-backend`.
