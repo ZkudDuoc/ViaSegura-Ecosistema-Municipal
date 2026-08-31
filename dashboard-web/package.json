@@ -1,0 +1,22 @@
+{
+  "name": "viasegura-dashboard",
+  "version": "0.1.0",
+  "description": "VíaSegura Dashboard Web — bandeja de decisiones (Operador Central) y reportería (Supervisor).",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "maplibre-gl": "^4.5.2",
+    "axios": "^1.7.4"
+  },
+  "devDependencies": {
+    "vite": "^5.4.1",
+    "@vitejs/plugin-react": "^4.3.1"
+  }
+}

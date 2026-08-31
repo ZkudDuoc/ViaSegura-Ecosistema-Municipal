@@ -1,0 +1,21 @@
+{
+  "name": "viasegura-mobile-app",
+  "version": "0.1.0",
+  "description": "VíaSegura App Móvil — registro de solicitud, geofencing + foto, botón de pánico, escaneo QR e infracciones.",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "expo": "~51.0.0",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "@react-navigation/native": "^6.1.18",
+    "expo-camera": "~15.0.16",
+    "expo-location": "~17.0.1",
+    "socket.io-client": "^4.7.5",
+    "axios": "^1.7.4"
+  }
+}
